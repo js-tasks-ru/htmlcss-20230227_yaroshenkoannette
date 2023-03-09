@@ -1,8 +1,4 @@
 /* Стилизация аккордеона */
-.accordion{
-    max-width: 730px;
-    margin: 0 auto;
-}
 
 .accordion__item{
     background-color: var(--white);
