@@ -1,11 +1,4 @@
-/* Отступы */
-
-.button+.button{
-    margin-left: 5px;
-    margin-bottom: 2px;
-}
-
-
+    
 /* Стилизация кнопки */
 .button{
  border-radius: 8px;
@@ -13,7 +6,7 @@
  font-weight: 500;
  line-height: 19px;
  font-family: 'Roboto', sans-serif;
- padding: 14px 60px;
+ padding: 15px 60px 14px;
 transition: 200ms ease-in-out;
 cursor: pointer;
 }
@@ -23,35 +16,35 @@ cursor: pointer;
     pointer-events: none;
 }
 
-.button__primary{ 
+.button_primary{ 
  background-color: var(--primary);
  border: 1 px solid var(--primary);
  color: var(--white)
 }
 
-.button__primary:hover, .button__primary:active {
+.button_primary:hover, .button_primary:active {
     background-color: #2342C0;
 }
 
-.button__alternate {
+.button_alternate {
  background-color: var(--white);
  border: 1px solid var(--grey-3);
  color: var(--grey-4);
 }
 
-.button__alternate:hover,
-.button__alternate:active {
+.button_alternate:hover,
+.button_alternate:active {
     border-color: var(--black);
 }
 
-.button__secondary {
+.button_secondary {
 background-color: var(--secondary);
 border: 1 px solid var(--secondary);
 color: var(--white);
 }
 
-.button__secondary:hover,
-.button__secondary:active {
+.button_secondary:hover,
+.button_secondary:active {
     background-color: #5028C6;
 }
 
