@@ -19,7 +19,7 @@
     --secondary: var(--purple);
 }
 
-* {
+.page {
     font-family: 'Roboto', sans-serif;
 }
 
