@@ -1,4 +1,5 @@
 @import '../fonts/fonts.css';
+@import 'reset.css';
 
 :root {
     --white: #ffffff;
@@ -22,4 +23,3 @@
 .page {
     font-family: 'Roboto', sans-serif;
 }
-
