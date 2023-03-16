@@ -34,6 +34,7 @@
     line-height: 24px;
     text-decoration: none;
     color: var(--primary);
+    margin-top: 3px
 }
 
 .histogram__content{  
