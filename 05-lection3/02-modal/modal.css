@@ -1,0 +1,24 @@
+.modal{
+font-family: "Inter", sans-serif;
+background-color: rgba(196, 196, 196, 0.5);
+display: none;
+}
+
+.modal__wrapper{
+    padding: 30px 40px 33px;
+    margin: 40px 40px 47px;
+}
+
+.modal__title{
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+
+.modal__close{
+
+}
+
+.modal__content{
+    
+}
