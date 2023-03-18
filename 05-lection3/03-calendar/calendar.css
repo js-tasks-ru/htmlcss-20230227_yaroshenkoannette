@@ -6,7 +6,7 @@
     border-radius: 8px;
     padding: 28px 26px 32px;
     font-family: "Inter",sans-serif;
-    color: #334D6E;
+    color: var(--grey-blue);
     text-align: center;
 }
 
@@ -43,7 +43,7 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0px;
-    color: #334D6E;
+    color: var(--grey-blue);
     
 }
 
